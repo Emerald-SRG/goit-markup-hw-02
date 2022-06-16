@@ -9,13 +9,14 @@
 body {
     font-family: 'Roboto', sans-serif;
     color: var(--primary-text-color);
-    line-height: 1.2;
 }
 
 /* Хедер */
 .hdr,
 .card {
     background-color: var(--white);
+    letter-spacing: 0.02 em;
+    line-height: 1.2;
 }
 
 .hdr {
@@ -33,9 +34,14 @@ body {
     color: var(--primary-text-color);
 }
 
+a {text-decoration: none;}
+
+ul {list-style-type: none;}
+
 .link {
     color: var(--primary-text-color);
     line-height: 1.14;
+    
 }
 
 .link:hover,
@@ -61,6 +67,29 @@ body {
 }
 
 /* Герой */
+
+.tagline,
+.tagline-text {
+    font-family: 'Roboto';
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+    background-color: rgba(47, 48, 58, 1);
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.tagline-buy {
+    color: #FFFFFF;
+    background: #2196F3;
+    width: 200px;
+    height: 50px;
+    letter-spacing: 0.06em;
+    font-weight: 700;
+}
+
 .hero,
 .basement {
     background-color: #2f303a;
@@ -84,6 +113,27 @@ body {
 }
 
 /* Ососбенности */
+
+.specs {
+    font-family: 'Roboto';
+}
+
+.specs-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+.specs-name {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
 .title {
     color: var(--primary-text-color);
     text-transform: uppercase;
@@ -101,6 +151,16 @@ body {
 }
 
 /* Чем мы занимаемся */
+
+.sbtitle {
+    font-family: 'Roboto';
+        font-style: normal;
+        font-size: 36px;
+        line-height: 42px;
+        text-align: center;
+        letter-spacing: 0.03em;
+}
+
 .about-title {
     color: var(--primary-text-color);
     font-weight: 700;
@@ -109,7 +169,9 @@ body {
 
 /* Команда */
 .team {
-    background-color: #f5f4fa;
+    background-color:  #F5F4FA;
+    font-family: 'Roboto';
+
 }
 
 .team-title {
@@ -141,6 +203,10 @@ body {
 .tel {
     font-style: normal;
     line-height: 1.7;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
 }
 
 .mail,
